@@ -7,7 +7,7 @@ metadata:
 build:
   # defines where to find the code at build time and where to push the resulting image
   artifacts:
-  - image: python-guestbook-frontend
+  - image: europe-west4-docker.pkg.dev/dh-summit/pysummit/python-guestbook-frontend
     context: .
 # defines the Kubernetes manifests to deploy on each run
 deploy:
